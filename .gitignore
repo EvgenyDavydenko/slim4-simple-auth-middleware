@@ -1,0 +1,4 @@
+# vendor dir
+/vendor
+
+composer.lock

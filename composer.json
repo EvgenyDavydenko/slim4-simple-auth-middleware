@@ -1,0 +1,9 @@
+{
+    "require": {
+        "slim/slim": "^4.11",
+        "slim/psr7": "^1.6"
+    },
+    "scripts": {
+        "serve": "php -S 127.0.0.1:8080 -t public/"
+    }
+}
