@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+    php-cli:
+        build: ./
+        container_name: application-php-cli-bullseye
+        restart: always
+        ports:
+            - 8080:8080
+        volumes:
+            - ./:/usr/src/application
+        command: composer serve

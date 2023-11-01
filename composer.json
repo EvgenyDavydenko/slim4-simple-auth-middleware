@@ -1,0 +1,12 @@
+{
+    "require": {
+        "slim/slim": "^4.12",
+        "slim/psr7": "^1.6"
+    },
+    "config": {
+        "process-timeout": 0
+    },
+    "scripts": {
+        "serve": "php -S php-cli:8080 -t public"
+    }
+}
